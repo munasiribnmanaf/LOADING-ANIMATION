@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/pexels-goumbik-1420702.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header1{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: rgb(232,232,236);
+    border: rgb(162, 162, 162) 6px solid;
+    border-top-color: rgb(0, 0, 0);
+    animation:iq 0.9s linear infinite ;
+}
+@keyframes iq{
+    0%{
+        transform: rotate(0);
+    }
+    20%{
+       border-top-color: brown;
+    }
+    40%{
+        border-top-color: rgb(42, 142, 165);
+    }
+    60%{
+        border-top-color: rgb(132, 124, 17);
+    }
+    80%{
+        border-top-color: rgb(69, 42, 165);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
